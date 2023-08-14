@@ -4,9 +4,11 @@ body {
     background-color: #fff;
     font: 13px/27px Roboto,Arial,sans-serif;
 }
-.m_upper {
-    float: left;
+.m-upper {
     padding-right: 32px;
+    box-sizing: border-box;
+    line-height: normal;
+    height: 350px;
 }
 
 #m-upper_2, #m-upper_3, #m-upper_4 {
@@ -18,7 +20,13 @@ body {
     align-items: center;
 }
 
-#m-upper_2:hover, #m-upper_3:hover, #m-upper_4:hover {
+#m-upper_2:hover {
+    background-color: #6e7175;
+    border-radius: 50%;
+    right: 10px;
+}
+
+#m-upper_3:hover, #m-upper_4:hover {
     color: rgba(0,0,0,.87);
     text-decoration: underline;
 }
@@ -42,7 +50,18 @@ button {
     user-select: none;
 }
 
+.m-center {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#m-search_box {
+    border-radius: 50%;
+}
+
 input {
     background-color: #fff;
+    border-radius: 30%;
     
 }
