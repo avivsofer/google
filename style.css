@@ -92,10 +92,47 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
+#m-search_box {
+    flex: 1;
+    display: flex;
+    padding: 5px 14px 0 8px;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    box-shadow: none;
 
+}
 
+#m-glass {
+    position: absolute;
+    top: 50%; /* מקם את התמונה באמצע האנכי של התיבה */
+    right: 12px; /* מרווח מימין */
+    transform: translateY(-50%); /* מסדר את התמונה למרכז הראשי שלה */
+}
+
+#m-glass img {
+    width: 50px; /* או גודל אחר שאתה רוצה */
+    height: 50px; /* או גודל אחר שאתה רוצה */
+}
+
+input {
+    flex: 1;
+    display: flex;
+    padding: 5px 14px 0 8px;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    width: 400px;
+}
 
 .m-bottom {
     display: flex;
