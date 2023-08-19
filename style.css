@@ -6,6 +6,9 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
 }
 
 .m-upper {
@@ -86,21 +89,21 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 178.400px;
+    max-height: 290px;
 }
 
 .m-logo_center {
-    align-items: center;
-    justify-items: center;
+    max-height: 92px;
+    position: relative;
     height: 100%;
-    /* height: 30px; */
-    margin-top: 198px;
+    margin-top: auto;
 }
 
 .m-search {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
+    padding: 20px;
+    max-height: 160px;
+    height: 120px
 }
 
 .m-search_box {
@@ -112,14 +115,6 @@ button {
     background: #fff;
     box-shadow: none;
 }
-
-/* .m-search_box button {
-    width: 44px; 
-    height: 44px; 
-    background: none;
-    border: none;
-    padding: 0;
-} */
 
 .search-button {
     position: relative;
@@ -133,8 +128,6 @@ button {
      top: 50%; /* מקם את התמונה באמצע האנכי של התיבה  */
      right: 12px; /* מרווח מימין */
      transform: translateY(-50%); /* מסדר את התמונה למרכז הראשי שלה  */
-
-    
     width: 30px;
     height: 30px;
 }
@@ -163,7 +156,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 18px;
     height: 70px;
 }
 
@@ -174,9 +167,19 @@ input {
 }
 
 .m-search_available {
-    height: 200px;
-    margin-bottom: 24px;
+    flex-grow: 1;
     text-align: center;
+}
+
+.m-search_available1 {
+    color: #4d5156;
+    display: inline-block;
+    line-height: 28px;
+}
+
+.m-search_lang {
+    padding: 0px 3px;
+    color: #1a0dab;
 }
 
 .m-bottom {
@@ -187,8 +190,6 @@ input {
 }
 
 #m-bottom1 {
-    /* position: relative;
-    left: 850px; */
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
