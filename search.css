@@ -1,0 +1,177 @@
+
+
+body{
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #202124;
+}
+
+/* element.style {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+} */
+
+.srp{
+    --center-width: 652px;
+    --rhs-margin: 76px;
+    --rhs-width: 372px;
+    --lhs-refinements-width: 0px;
+    --grid-gutter-width: 20px;
+    --grid-column-width: 36px;
+    --center-abs-margin: 28px;
+}
+
+div{
+    display: block;
+}
+
+.sfbg{
+    background: #fff;
+    height: 69px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+.tsf{
+    width: calc(var(--center-abs-margin) + 652px);
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a{
+    color: #1a0dab;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+}
+
+#logo {
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.RNNXgb {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 690px;
+}
+
+#topBar{
+    width: 538px;
+}
+
+.SDkEP {
+    flex: 1;
+    display: flex;
+    padding: 5px 14px 0 4px;
+}
+
+.iblpc {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    margin-top: -7px;
+    height: 46px;
+}
+
+.CcAdNb {
+    margin: auto;
+}
+
+.QCzoEc {
+    color: #9aa0a6;
+}
+
+.iblpc span {
+    display: none;
+}
+
+.a4bIc {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: 6px;
+}
+
+.YacQv {
+    color: transparent;
+    white-space: pre;
+    position: absolute;
+    pointer-events: none;
+}
+
+.gLFyf.i4ySpb {
+    display: block;
+    position: absolute;
+}
+
+.m-search_box {
+    flex: 1;
+    display: flex;
+    padding: 5px 14px 0 8px;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    box-shadow: none;
+}
+
+.dRYYxd {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+
+.BKRPef {
+    padding-left: 4px;
+}
+.BKRPef {
+    padding-left: 4px;
+}
+
+.M2vV3 {
+    display: flex;
+    outline: 0;
+}
+
+.ACRAdd.M2vV3 {
+    display: block;
+}
+
+.ly0Ckb {
+    background: url(images/keyboard.png) no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.yAnw3c {
+    visibility: hidden;
+}
+
+#microphon{
+    background: url(images/microphon.png) no-repeat center;
+}
+
+#camra{
+    background: url(images/camra.png) no-repeat center;
+}
