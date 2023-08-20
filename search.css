@@ -175,3 +175,65 @@ a{
 #camra{
     background: url(images/camra.png) no-repeat center;
 }
+
+.GLcBOb {
+    color: #70757a;
+    font-size: 14px;
+    font-family: Google Sans,arial,sans-serif;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: -21px;
+    position: relative;
+    z-index: 126;
+    }
+
+    .yg51vc {
+        background: #fff;
+        height: 58px;
+        padding: 0;
+        position: relative;
+        z-index: 126;
+        white-space: nowrap;
+    }
+
+    .IC1Ck {
+        position: relative;
+        white-space: nowrap;
+        align-items: baseline;
+        display: flex;
+        -ms-flex-pack: justify;
+        float: right;
+        justify-content: space-between;
+        min-width: calc(var(--center-abs-margin) + 652px);
+    }
+
+    .MUFPAc {
+        display: inline;
+        margin-right: calc(var(--center-abs-margin) + -11px);
+    }
+
+    .hdtb-mitem.hdtb-msel {
+        color: #1a73e8;
+    }
+
+    .iJddsb {
+        display: inline-block;
+        fill: currentColor;
+    }
+    .bmaJhd {
+        margin-left: 5px;
+        vertical-align: text-bottom;
+    }
+
+    .YTDezd {
+        background: #1a73e8;
+        height: 3px;
+        margin-top: 11px;
+    }
+
+    .icons_top {
+        position: relative;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+
