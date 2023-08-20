@@ -104,7 +104,9 @@ button {
 .m-search {
     padding: 20px;
     max-height: 160px;
-    height: 120px
+    height: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
 .m-search_box {
@@ -114,7 +116,12 @@ button {
     z-index: 3;
     min-height: 44px;
     background: #fff;
+    border: 1px solid #dfe1e5;
     box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 584px;
+    width: 600px;
 }
 
 .search-button {
@@ -139,7 +146,9 @@ button {
 }
 
 input {
-    flex: 1;
+    width: 100%;
+  border: none;
+    /* flex: 1;
     display: flex;
     padding: 5px 14px 0 8px;
     z-index: 3;
@@ -150,7 +159,7 @@ input {
     border-radius: 24px;
     margin: 0 auto;
     max-width: 584px;
-    width: 600px;
+    width: 600px; */
 }
 
 .m-button {
