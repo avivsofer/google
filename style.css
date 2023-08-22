@@ -62,7 +62,7 @@ body {
 }
 
 #m-upper_1:hover, #m-upper_2:hover {
-    background-color: #595a5b;
+    background-color: #bbbcbe;
     border-radius: 100%;
     
 }
@@ -91,14 +91,12 @@ button {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-height: 290px;
+    margin-top: 6.5%;
 }
 
 .m-logo_center img{
-    max-height: 92px;
     position: relative;
     height: 100%;
-    margin-top: auto;
 }
 
 .m-search {
@@ -112,9 +110,9 @@ button {
 .m-search_box {
     flex: 1;
     display: flex;
-    padding: 5px 14px 0 8px;
+    padding: 5px 5px 0 8px;
     z-index: 3;
-    min-height: 44px;
+    min-height: 42px;
     background: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
@@ -133,16 +131,16 @@ button {
 
 #m-glass {
     position: absolute;
-     top: 50%; /* מקם את התמונה באמצע האנכי של התיבה  */
-     right: 12px; /* מרווח מימין */
-     transform: translateY(-50%); /* מסדר את התמונה למרכז הראשי שלה  */
+    top: 50%; 
+    right: 12px; 
+    transform: translateY(-50%);
     width: 30px;
     height: 30px;
 }
 
 #m-glass img {
-    width: 30px; /* או גודל אחר שאתה רוצה */
-    height: 30px; /* או גודל אחר שאתה רוצה */
+    width: 30px; 
+    height: 30px;
 }
 
 input {
@@ -181,18 +179,18 @@ input {
 }
 
 .m-bottom {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 190px;
+    height: 96px;
     background-color: #f2f2f2;
     box-sizing: border-box;
     z-index: 999;
 }
 
 .m-bottom1 {
-    padding: 15px 30px;
+    padding: 10px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: #70757a;
@@ -204,12 +202,49 @@ input {
 }
 
 .m-bottom2 {
-    order: 0;
-    width: 100%;
-    justify-content: center;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #70757a;
+    text-align: center;
+    text-decoration: none;
 }
 
-#m.m-bottom2
+#imgbottom {
+    width: 12px;
+    height: auto;
+}
+
+#m-bottom21 {
+    vertical-align: top;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.m-bottom22 {
+   position: absolute;
+   right: 30px;
+   top: 56px;
+   padding-top: 2px;
+}
+
+.m-bottom24 {
+    position: absolute;
+    left: 30px;
+    top: 56px;
+    padding-top: 2px;
+ }
+
+.m-bottom23 , .m-bottom25 {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+
+
+
+
+
 
 
 
