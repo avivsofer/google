@@ -24,6 +24,7 @@ body {
 }
 
 .m-upper_icon {
+    position: relative;
     display: flex;
     justify-content: center; /* ממרכז את התוכן אופקית */
     align-items: center; /* ממרכז את התוכן אנכית */
@@ -80,7 +81,6 @@ button {
     font-size: 14px;
     line-height: 27px;
     height: 36px;
-    min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
@@ -110,7 +110,7 @@ button {
 .m-search_box {
     flex: 1;
     display: flex;
-    padding: 5px 5px 0 8px;
+    padding: 5px 6px 0 8px;
     z-index: 3;
     min-height: 42px;
     background: #fff;
@@ -121,6 +121,15 @@ button {
     max-width: 584px;
     width: 600px;
 }
+input {
+    position: relative;
+    bottom: 4px;
+    right: 10px;
+}
+
+.m-search_box:hover {
+    
+}
 
 .search-button {
     position: relative;
@@ -129,18 +138,41 @@ button {
     padding: 0;
 }
 
+#search-button1 {
+    height: 28px;
+    width: auto;
+    display: flex;
+    padding: 0 8px;
+}
+
+#search-button2 {
+    height: 26px;
+    width: auto;
+    display: flex;
+    padding: 0 8px;
+}
+
+#search-button3 {
+    height: 11px;
+    width: auto;
+    display: flex;
+    padding: 0 8px;
+}
+
 #m-glass {
     position: absolute;
     top: 50%; 
-    right: 12px; 
+    right: 5px; 
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
 }
 
 #m-glass img {
-    width: 30px; 
-    height: 30px;
+    width: 40px; 
+    height: auto;
+    display: flex;
+    padding: 0 8px;
 }
 
 input {
@@ -162,6 +194,11 @@ input {
     padding-right: 15px;
 }
 
+.m-button2:hover {
+    border: 1;
+    color: #1a0dab;
+}
+
 .m-search_available {
     flex-grow: 1;
     text-align: center;
@@ -176,6 +213,7 @@ input {
 .m-search_lang {
     padding: 0px 3px;
     color: #1a0dab;
+    text-decoration: none;
 }
 
 .m-bottom {
@@ -215,12 +253,14 @@ input {
 }
 
 #m-bottom21 {
+    font-size: 14px;
     vertical-align: top;
     text-decoration: none;
     color: #70757a;
 }
 
 .m-bottom22 {
+    font-size: 14px;
    position: absolute;
    right: 30px;
    top: 56px;
@@ -228,6 +268,7 @@ input {
 }
 
 .m-bottom24 {
+    font-size: 14px;
     position: absolute;
     left: 30px;
     top: 56px;
