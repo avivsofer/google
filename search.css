@@ -6,7 +6,6 @@ body{
     min-height: 100%;
     position: relative;
     color: #202124;
-    text-align: right;
 }
 
 html, body {
@@ -15,12 +14,16 @@ html, body {
     height: auto;
 }
 
-#topbar {
-    height: 64px;
-    width: 100%;
-    position: absolute;
+.m-topbar {
     margin-top: 20px;
-    top: 0px;
+    background-color: #fff;
+
+}
+
+#topbar {
+    height: 60px;
+    width: 100%;
+    position: fixed;
     right: 0px;
     left: 0px;
     background-color: white;
@@ -32,7 +35,6 @@ html, body {
     padding: 0px 28px 10px 30px;
     cursor: pointer;
     text-align: right;
-    direction: rtl;
 }
 
 .m-upper_icon {
@@ -47,21 +49,20 @@ html, body {
 
 .logo {
     position: absolute;
-    top: 20px;
-    right: -10px;
+    top: 15px;
+    right: 30px;
     padding: 4px 30px 0 28px;
 }
+
 .ultop{
+    position: absolute;
     float: left;
     align-items: center;
-    right: 6px;
-    top: 2px;
     height: 48px;
     display: flex;
-    align-items: lcentereft;
-    padding: 6px;
-    margin-left: 0px;
+    padding-right: 10px;
 }
+
 .leftupper{
     list-style: none;
     margin-right: 20px;
@@ -120,7 +121,7 @@ html, body {
 }
 
 #searchbar {
-    width: 625px;
+    width: 44%;
     height: 45px;
     border-radius: 100px;
     border-color: lightgray;
@@ -131,8 +132,7 @@ html, body {
     bottom: 5px;
     overflow: hidden;
     display: block;
-    z-index: 100;
-    right: 140px;
+    right: 200px;
 }
 
 #searchbar:hover {
@@ -140,12 +140,12 @@ html, body {
 }
 
 #searchbar > input {
+    position: absolute;
+    right: 18px;
+    text-align: right;
     height: 45px;
     border-style: none;
     font-size: 16px;
-    line-height: 45px;
-    padding-left: 20px;
-    flex: 1;
 }
 
 #searchbar > input:focus {
@@ -189,15 +189,37 @@ html, body {
     flex-direction: row;
     padding: 0px;
     margin: 0px;
-    margin-left: 100px;
+}
+
+#optionsmenu2 button{
+    height: 40px;
+    font-family: Google Sans,arial,sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#optionsmenu2 button:hover{
+    background-color: white;
 }
 
 #optionsmenu2 li {
-    padding: 0px 10px 15px 20px;
+    padding: 0px 0px 0px 0px;
+    opacity: 0.7;
+}
+
+#safty {
+    left: 0px;
+    margin-right: 190px;
 }
 
 #searchresultsarea {
-    margin-right: 150px;
+    margin-right: 200px;
     font-family: 'Arial';
     direction: rtl;
 }
@@ -282,7 +304,8 @@ html, body {
     flex-direction: row;
     padding: 0px;
     margin: 0px;
-    margin-left: 150px;
+    
+    margin-left: 200px;
 }
 
 #optionsmenu1 li {
@@ -380,11 +403,12 @@ html, body {
     color: #4285f4;
    
 }
+
 a{
     color: #4285f4;;
     text-decoration: none;
-    margin-right:4px;
 }
+
 .pagelistnumber::before, .pagelistfirst::before {
     content: '';
     display: block;
