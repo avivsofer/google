@@ -2,7 +2,8 @@
 
 body {
     background-color: #fff;
-    font: 13px/27px Roboto,Arial,sans-serif;
+    font: 13px/27px Roboto, Arial, sans-serif;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,6 +12,20 @@ body {
     flex-direction: column;
     flex-grow: 0;
 }
+
+body {
+    background-color: #fff;
+    font: 13px/27px Roboto, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 
 .m-upper {
     position: relative;
@@ -26,26 +41,33 @@ body {
 .m-upper_icon {
     position: relative;
     display: flex;
-    justify-content: center; /* ממרכז את התוכן אופקית */
-    align-items: center; /* ממרכז את התוכן אנכית */
+    justify-content: center;
+    /* ממרכז את התוכן אופקית */
+    align-items: center;
+    /* ממרכז את התוכן אנכית */
     float: left;
     padding-right: 10px;
     height: 55px;
     width: auto;
 }
 
-#m-upper_3, #m-upper_4 {
+#m-upper_3,
+#m-upper_4 {
     position: relative;
     top: 0px;
     text-decoration: none;
     color: black;
     display: flex;
-    justify-content: center; /* ממרכז את התוכן אופקית */
-    align-items: center; /* ממרכז את התוכן אנכית */
+    justify-content: center;
+    /* ממרכז את התוכן אופקית */
+    align-items: center;
+    /* ממרכז את התוכן אנכית */
 }
 
-.m-upper_icon button, .m-upper_icon a {
-    margin: 0 0px; /* מרווח בין הכפתורים והלינקים */
+.m-upper_icon button,
+.m-upper_icon a {
+    margin: 0 0px;
+    /* מרווח בין הכפתורים והלינקים */
     height: 45px;
 }
 
@@ -59,11 +81,14 @@ body {
     background-color: #fff;
     height: 30px;
     display: flex;
-    justify-content: center; /* ממרכז את התוכן אופקית */
-    align-items: center; /* ממרכז את התוכן אנכית */
+    justify-content: center;
+    /* ממרכז את התוכן אופקית */
+    align-items: center;
+    /* ממרכז את התוכן אנכית */
 }
 
-#m-upper_1 button, #m-upper_2 button {
+#m-upper_1 button,
+#m-upper_2 button {
     background-color: #fff;
 }
 
@@ -72,10 +97,11 @@ body {
     cursor: pointer;
     opacity: 1;
     background-position: -64px -29px;
-    background-color: rgba(60,64,67,.08);
+    background-color: rgba(60, 64, 67, .08);
 }
 
-#m-upper_3:hover, #m-upper_4:hover {
+#m-upper_3:hover,
+#m-upper_4:hover {
     text-decoration: underline;
 }
 
@@ -84,7 +110,7 @@ button {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     line-height: 27px;
     height: 36px;
@@ -93,15 +119,23 @@ button {
     user-select: none;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%; /* גובה מלא */
+}
+
 .m-center {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 19%;
+    margin-top: 30%;
 }
 
-.m-logo_center img{
+.m-logo_center img {
     position: relative;
     height: 100%;
 }
@@ -114,10 +148,10 @@ button {
     flex-direction: column;
 }
 
-#seabar{
+#seabar {
     direction: rtl;
-    border: none; 
-     outline: none;
+    border: none;
+    outline: none;
     background: none;
     position: relative;
     bottom: 4px;
@@ -140,8 +174,8 @@ button {
 }
 
 .m-search_box:hover {
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .search-button {
@@ -174,15 +208,15 @@ button {
 
 #m-glass {
     position: absolute;
-    top: 50%; 
-    right: 5px; 
+    top: 50%;
+    right: 5px;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
 }
 
 #m-glass img {
-    width: 40px; 
+    width: 40px;
     height: auto;
     display: flex;
     padding: 0 8px;
@@ -201,14 +235,14 @@ input {
     height: 70px;
 }
 
-.m-button2{
+.m-button2 {
     margin: 11px 4px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .m-button2:hover {
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
@@ -281,35 +315,28 @@ input {
 
 .m-bottom22 {
     font-size: 14px;
-   position: absolute;
-   right: 30px;
-   top: 56px;
-   padding-top: 2px;
+    position: absolute;
+    right: 35px;
+    top: 56px;
+    padding-top: 2px;
 }
 
 .m-bottom24 {
     font-size: 14px;
     position: absolute;
-    left: 30px;
+    left: 18px;
     top: 56px;
     padding-top: 2px;
- }
+}
 
-.m-bottom23 , .m-bottom25 {
-    padding-left: 15px;
+.m-bottom23,
+.m-bottom25 {
+    padding-left: 25px;
     text-decoration: none;
     color: #70757a;
 }
-.m-bottom23:hover , .m-bottom25:hover {
-text-decoration: underline;
+
+.m-bottom23:hover,
+.m-bottom25:hover {
+    text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
