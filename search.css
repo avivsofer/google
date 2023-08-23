@@ -32,10 +32,8 @@ html, body {
 .ultop{
     direction: ltr;
 }
-/* #SB{
-    direction: rtl;
-    text-align: right;
-} */
+
+
 #searchbarimage {
     height: 30px;
     padding: 0px 28px 10px 30px;
