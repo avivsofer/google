@@ -6,6 +6,7 @@ body{
     min-height: 100%;
     position: relative;
     color: #202124;
+    text-align: right;
 }
 
 html, body {
@@ -17,19 +18,43 @@ html, body {
 #topbar {
     height: 64px;
     width: 100%;
+<<<<<<< HEAD
     position: absolute;
     margin-top: 20px;
     top: 0px;
     right: 0px;
     left: 0px;
+=======
+    align-items: flex-start;
+    position: ab;
+>>>>>>> 0f9ee5ae21a39d48f0b8bb387767d7edf1b58c6a
     background-color: white;
+    direction: rtl;
+    
 }
-
-
+.ultop{
+    direction: ltr;
+}
+/* #SB{
+    direction: rtl;
+    text-align: right;
+} */
 #searchbarimage {
     height: 30px;
     padding: 0px 28px 10px 30px;
     cursor: pointer;
+    text-align: right;
+    direction: rtl;
+}
+
+#optionsbar{
+    direction: rtl;
+    
+}
+
+#safty{
+    background-color: #f8f9fa;
+    border: none;
 }
 
 .m-upper_icon {
@@ -190,9 +215,11 @@ html, body {
 }
 
 #searchresultsarea {
-    margin-left: 150px;
+    margin-right: 150px;
     font-family: 'Arial';
+    direction: rtl;
 }
+
 
 #searchresultsnumber {
     font-size: 0.8rem;
@@ -293,12 +320,16 @@ html, body {
     margin-top: 0px;
     color: rgb(82, 82, 82);
 }
+.relatedsearches{
+    margin-bottom: 10px;
+    margin-right: 90px;
+}
 
 .relatedsearches h3 {
     font-weight: normal;
     font-size: 19px;
     margin-top: 40px;
-    margin-bottom: 10px;
+    
 }
 
 .relatedlists ul {
@@ -327,7 +358,8 @@ html, body {
     flex-direction: row;
     font-size: 12px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 160px;
+    direction: ltr;
 }
 
 .pagelistprevious::before {
@@ -357,8 +389,20 @@ html, body {
 .pagelistfirst {
     margin-left: 20px;
     font-size: 13px;
+    color: #4285f4;  
 }
-
+#line1{
+    margin-right:22px;
+}
+.pagelistnumber{
+    color: #4285f4;
+   
+}
+a{
+    color: #4285f4;;
+    text-decoration: none;
+    margin-right:4px;
+}
 .pagelistnumber::before, .pagelistfirst::before {
     content: '';
     display: block;
@@ -368,7 +412,7 @@ html, body {
     border-radius: 50px;
     width: 10px;
     height: 10px;
-    background-color: white;
+    background-color:מםמק;
     z-index: 3;
 }
 
@@ -434,9 +478,9 @@ html, body {
 
 .LongGoogle{
     display: block;
-    position: absolute;
-    margin-left: 90px;
-    margin-bottom: 130px;
+    /* position: absolute; */
+    margin-right: 150px;
+    margin-bottom: -20px;
 }
 #footer {
     background-color: rgb(238, 238, 238);
