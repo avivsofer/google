@@ -18,16 +18,13 @@ html, body {
 #topbar {
     height: 64px;
     width: 100%;
-<<<<<<< HEAD
     position: absolute;
     margin-top: 20px;
     top: 0px;
     right: 0px;
     left: 0px;
-=======
     align-items: flex-start;
     position: ab;
->>>>>>> 0f9ee5ae21a39d48f0b8bb387767d7edf1b58c6a
     background-color: white;
     direction: rtl;
     
