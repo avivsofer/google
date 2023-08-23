@@ -109,6 +109,14 @@ button {
     flex-direction: column;
 }
 
+#seabar{
+    direction: rtl;
+    border: none; 
+     outline: none;
+    background: none;
+
+}
+
 .m-search_box {
     flex: 1;
     display: flex;
