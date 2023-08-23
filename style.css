@@ -114,8 +114,6 @@ button {
     flex-direction: column;
 }
 
-
-
 #seabar{
     direction: rtl;
     border: none; 
@@ -123,7 +121,7 @@ button {
     background: none;
     position: relative;
     bottom: 4px;
-    right: 10px;
+    right: 35px;
 }
 
 .m-search_box {
