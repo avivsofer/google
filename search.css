@@ -17,7 +17,6 @@ html, body {
 .m-topbar {
     margin-top: 20px;
     background-color: #fff;
-
 }
 
 #topbar {
@@ -27,6 +26,7 @@ html, body {
     right: 0px;
     left: 0px;
     background-color: white;
+    z-index: 9999;
 }
 
 
@@ -232,7 +232,8 @@ html, body {
 }
 
 #tool {
-    margin-left: 7px;
+    /* margin-left: 7px; */
+    margin-left: 80px;
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 28px;
@@ -246,7 +247,13 @@ html, body {
     white-space: nowrap;
     cursor: pointer;
     margin-bottom: -1px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin-right: 60px;
+    margin-top: -40px;
+}
+
+.urlToPage{
+    margin-right: 60px;
 }
 
 .triengle{
@@ -255,6 +262,12 @@ html, body {
 
 .topResolt{
     margin-bottom: -15px;
+}
+
+.reicons{
+    position: relative;
+    margin-top: 40px;
+  
 }
 
 #searchresultsarea {
@@ -288,7 +301,8 @@ html, body {
     font-family: arial,sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #681da8;
+    /* color: #681da8; */
+    color: #1a0dab;
     cursor: pointer;
     text-align: right;
 }
@@ -389,10 +403,7 @@ html, body {
 }
 
 .searchresult p {
-    /* width: 625px;
-    font-size: 13px;
-    margin-top: 0px;
-    color: rgb(82, 82, 82); */
+    width: 45%;
     color: #4d5156;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -479,7 +490,7 @@ html, body {
 .pagelistfirst {
     margin-left: 20px;
     font-size: 13px;
-    color: #4285f4;  
+    color: #020a17;  
 }
 
 .pagelistnumber{
@@ -492,6 +503,9 @@ a{
     text-decoration: none;
 }
 
+.pagelistnumber:hover{
+    text-decoration: underline;
+}
 
 .pagelistnumber::before, .pagelistfirst::before {
     content: '';
@@ -505,19 +519,6 @@ a{
     background-color:none;
     z-index: 3;
 }
-/* 
-.pagelistnumber::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: -6px;
-    top: -25px;
-    border-radius: 50px;
-    width: 18px;
-    height: 18px;
-    background-color: rgb(255, 196, 0); */
-   
-/* } */ */
 
 .pagelistfirst::after {
     content: '';
@@ -551,7 +552,9 @@ a{
     font-size: 20px;
     transform: scale(0.7, 1.2);
 }
-
+.pagelistnext:hover{
+    text-decoration: underline;
+}
 /* .pagelistnext::after {
     content: '';
     display: block;
@@ -626,17 +629,28 @@ a{
     direction: rtl;
     color: #70757a;
 }
+#m-bottom12{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #dadce0;
+    color: #70757a;
+}
 
 #m-bottom11 {
     margin-right: 10px;
     padding-right: 10px;
-    border-right: 1px solid #dadce0;
+    margin-right: -5px;
+    color: #1a0dab;
 }
 
 #imgbottom {
     position: relative;
     width: 30px;
     height: auto;
+    /* margin-right: 210px; */
+    /* margin-top: 10px; */
+    
+ 
 }
 
 .m-bottom2 {
@@ -647,6 +661,13 @@ a{
     color: #70757a;
     text-align: center;
     text-decoration: none;
+}
+
+.bottemResult h2:hover {
+    text-decoration: underline;
+}
+.wroteninbox:hover {
+    text-decoration: underline;
 }
 
 #m-bottom21 {
@@ -666,5 +687,7 @@ a{
     font-size: 14px;
     vertical-align: top;
     text-decoration: none;
-    color: #70757a;
+    color: #1a0dab;
+    display: inline-flex;
 }
+
