@@ -493,7 +493,41 @@ a{
     background-repeat: no-repeat;
     background-size: 48px;
 }
+.inbox{
+    align-items: center;
+    background-color: #f1f3f4;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    max-height: none;
+    min-height: 48px;
+    padding-right: 17px;
+    padding-left: 17px;
+    position: relative;
+    cursor: pointer;
+    
+}
 
+.wroteninbox{
+    -webkit-box-orient: vertical;
+    color: #202124;
+    display: -webkit-box;
+    flex: 1;
+    font-size: 16px;
+    -webkit-line-clamp: 2;
+    max-width: 227px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+.glassinbox{
+    background-image: url(images/grayglass.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    height: 20px;
+    padding: 10px;
+    width: 20px;
+}
 .LongGoogle{
     display: block;
     /* position: absolute; */
@@ -501,11 +535,19 @@ a{
     margin-bottom: -20px;
 }
 #footer {
-    background-color: rgb(238, 238, 238);
-    position: relative;
-    left: 0px;
-    bottom: 0px;
+    /* background-color: rgb(238, 238, 238);
+    position: relative;  
+    font-size: 13px;
+    font-family: 'arial';
+    color: rgb(85, 85, 85); */
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
+    height: 96px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    z-index: 999;
     font-size: 13px;
     font-family: 'arial';
     color: rgb(85, 85, 85);
@@ -526,11 +568,20 @@ a{
 }
 
 #footerlocation {
-    display: flex;
+    /* display: flex;
     direction: row;
     margin-left: 175px;
     position: relative;
-    top: -5px;
+    top: -5px; */
+    padding: 10px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: right;
+    direction: rtl;
 }
 
 #footerlocation p:nth-of-type(1) {
