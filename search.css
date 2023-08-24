@@ -395,6 +395,10 @@ html, body {
     margin-left: 5px ;
 }
 
+#optionsmenu1 button:hover {
+    background-color: #dae0e6;
+}
+
 #optionsmenuactive {
     color: #4285F4;
     font-weight: bold;
