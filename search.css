@@ -238,6 +238,24 @@ html, body {
     margin-bottom: 28px;
     border-right: 1px solid #dadce0;
 }
+.h3cot{
+    color: #202124;
+    font-size: 14px;
+    display: block;
+    line-height: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: -1px;
+    margin-top: 40px;
+}
+
+.triengle{
+    -webkit-text-fill-color: #111;
+}
+
+.topResolt{
+    margin-bottom: -15px;
+}
 
 #searchresultsarea {
     margin-right: 200px;
@@ -265,10 +283,17 @@ html, body {
 }
 
 .searchresult a {
-    font-size: 14px;
+    /* font-size: 14px;
     line-height: 14px;
     color: green;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
+    direction: ltr;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    color: #4d5156;
+    font-style: normal;
+    cursor: pointer;
 }
 
 .searchresult button {
@@ -358,10 +383,6 @@ html, body {
     margin-top: 0px;
     color: rgb(82, 82, 82);
 }
-.relatedsearches{
-    
-   
-}
 
 .relatedsearches h3 {
     font-weight: normal;
@@ -389,15 +410,23 @@ html, body {
     margin-bottom: 8px;
 }
 
+
 .pagelist {
     list-style: none;
     color: rgb(29, 135, 255);
     display: flex;
     flex-direction: row;
     font-size: 12px;
+    
+    direction: ltr;
+}
+.pagebar{
     margin-bottom: 30px;
     margin-left: 160px;
-    direction: ltr;
+    display: block;
+    margin-right: 237px;
+    margin-bottom: 40px;
+    display: flex;
 }
 
 .pagelistprevious::before {
@@ -429,9 +458,7 @@ html, body {
     font-size: 13px;
     color: #4285f4;  
 }
-#line1{
-    margin-right:22px;
-}
+
 .pagelistnumber{
     color: #4285f4;
    
@@ -442,6 +469,7 @@ a{
     text-decoration: none;
 }
 
+
 .pagelistnumber::before, .pagelistfirst::before {
     content: '';
     display: block;
@@ -451,10 +479,10 @@ a{
     border-radius: 50px;
     width: 10px;
     height: 10px;
-    background-color:מםמק;
+    background-color:none;
     z-index: 3;
 }
-
+/* 
 .pagelistnumber::after {
     content: '';
     display: block;
@@ -464,9 +492,9 @@ a{
     border-radius: 50px;
     width: 18px;
     height: 18px;
-    /* background-color: rgb(255, 196, 0); */
-    z-index: 2;
-}
+    background-color: rgb(255, 196, 0); */
+   
+/* } */ */
 
 .pagelistfirst::after {
     content: '';
@@ -477,12 +505,11 @@ a{
     border-radius: 50px;
     width: 18px;
     height: 18px;
-    /* background-color: red; */
     z-index: 2;
 }
 
 .pagelist li {
-    margin-right: 15px;
+    margin-right: 18px;
     position: relative;
 }
 
@@ -495,14 +522,14 @@ a{
     content: '>';
     display: block;
     position: absolute;
-    left: 5px;
+    left: 25px;
     top: -35px;
     color: rgb(29, 135, 255);
     font-size: 20px;
     transform: scale(0.7, 1.2);
 }
 
-.pagelistnext::after {
+/* .pagelistnext::after {
     content: '';
     display: block;
     position: absolute;
@@ -510,10 +537,10 @@ a{
     top: -37px;
     width: 50px;
     height: 50px;
-    background-image: url('images/gle.png');
+    background-image: url('index.html');
     background-repeat: no-repeat;
     background-size: 48px;
-}
+} */
 .inbox {
     align-items: center;
     background-color: #f1f3f4;
