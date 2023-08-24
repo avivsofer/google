@@ -84,16 +84,6 @@ html, body {
     cursor: pointer;
     
 }
-#searchbarmic {
-    height: 45px;
-    width: 35px;
-    margin-left: auto;
-    background-color: white;
-}
-
-#searchbarmic img {
-    height: 25px;
-}
 
 #searchbarbutton {
     height: 45px;
@@ -523,7 +513,7 @@ a{
     background-repeat: no-repeat;
     background-size: 48px;
 }
-.inbox{
+.inbox {
     align-items: center;
     background-color: #f1f3f4;
     border-radius: 100px;
@@ -538,7 +528,7 @@ a{
     width: 320px;
 }
 
-.wroteninbox{
+.wroteninbox {
     -webkit-box-orient: vertical;
     color: #202124;
     display: -webkit-box;
@@ -549,7 +539,7 @@ a{
     overflow-wrap: break-word;
     overflow: hidden;
 }
-.glassinbox{
+.glassinbox {
     background-image: url(images/grayglass.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -558,9 +548,9 @@ a{
     padding: 10px;
     width: 20px;
 }
-.LongGoogle{
+.LongGoogle {
     display: block;
-    /* position: absolute; */
+
     margin-right: 150px;
     margin-bottom: -20px;
 }
@@ -571,28 +561,11 @@ a{
     left: 0;
     line-height: 40px;
     background-color: #f2f2f2;
-#footer {
-    /* background-color: rgb(238, 238, 238);
-    position: relative;  
-    font-size: 13px;
-    font-family: 'arial';
-    color: rgb(85, 85, 85); */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 96px;
-    background-color: #f2f2f2;
-    box-sizing: border-box;
-    z-index: 999;
-    font-size: 13px;
-    font-family: 'arial';
-    color: rgb(85, 85, 85);
 }
 
 .m-bottom1 {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     padding-right: 200px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
@@ -605,18 +578,21 @@ a{
 }
 
 #m-bottom11 {
-    margin-right: 101px;
+    margin-right: 10px;
     padding-right: 10px;
     border-right: 1px solid #dadce0;
 }
 
 #imgbottom {
-    width: 12px;
+    position: relative;
+    width: 30px;
     height: auto;
 }
 
 .m-bottom2 {
-    padding: 10px 30px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-right: 200px;
     font-size: 15px;
     color: #70757a;
     text-align: center;
@@ -625,26 +601,20 @@ a{
 
 #m-bottom21 {
     width: 100%;
-    /* display: block; */
-    padding: 10px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: #70757a;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     text-align: right;
     direction: rtl;
+    align-items: center;
+    align-content: center;
 }
 
 #m-bottom211 {
+    top: 0px;
     font-size: 14px;
     vertical-align: top;
     text-decoration: none;
     color: #70757a;
 }
-
-
-
-
-
