@@ -359,8 +359,8 @@ html, body {
     color: rgb(82, 82, 82);
 }
 .relatedsearches{
-    margin-bottom: 10px;
-    margin-right: 90px;
+    
+   
 }
 
 .relatedsearches h3 {
@@ -551,8 +551,7 @@ a{
 }
 .LongGoogle {
     display: block;
-
-    margin-right: 150px;
+    margin-right: 260px;
     margin-bottom: -20px;
 }
 
