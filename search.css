@@ -54,13 +54,14 @@ html, body {
     padding: 4px 30px 0 28px;
 }
 
-.ultop{
+.ultop {
     position: absolute;
     float: left;
     align-items: center;
     height: 48px;
     display: flex;
     padding-right: 10px;
+    padding-left: 25px;
 }
 
 .leftupper{
